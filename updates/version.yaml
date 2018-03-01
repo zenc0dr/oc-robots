@@ -1,1 +1,4 @@
-1.0.1: First version of robots.txt
+1.0.1: 'First version of robots.txt'
+1.0.2:
+    - 'Set default settings after install'
+    - robots_init.php
