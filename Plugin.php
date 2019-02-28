@@ -9,19 +9,30 @@ class Plugin extends PluginBase
     {
         return [
             'name'        => 'Robots.txt',
-            'description' => 'Simple generating robots.txt',
+            'description' => 'zen.robots::lang.plugin.description',
             'author'      => 'Alexander Ablizin',
             'icon'        => 'icon-leaf'
         ];
     }
+
+    public function registerPermissions()
+    {
+        return [
+            'zen.robots' => [
+                'tab'   => 'robots.txt',
+                'label' => 'zen.robots::lang.perms.access'
+            ],
+        ];
+    }
+
     public function registerSettings()
     {
         return [
             'options' => [
                 'label'       => 'Robots.txt',
-                'description' => 'Generating robots.txt',
+                'description' => 'zen.robots::lang.plugin.description',
                 'icon'        => 'icon-android',
-                'permissions' => [],
+                'permissions' => ['zen.robots'],
                 'class' => 'Zen\Robots\Models\Settings',
                 'order' => 600,
             ]
