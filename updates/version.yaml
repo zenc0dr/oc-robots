@@ -3,3 +3,4 @@
     - 'Set default settings after install'
     - robots_init.php
 1.0.3: 'Added translations and permission control'
+1.0.4: 'Hungarian'
