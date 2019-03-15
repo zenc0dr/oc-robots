@@ -35,6 +35,7 @@ class Plugin extends PluginBase
                 'permissions' => ['zen.robots'],
                 'class' => 'Zen\Robots\Models\Settings',
                 'order' => 600,
+                'category'    => 'SEO'
             ]
         ];
     }
