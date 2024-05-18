@@ -1,6 +1,6 @@
 <?php namespace Zen\Robots\Controllers;
 
-use Request;
+use Illuminate\Support\Facades\Request;
 use Zen\Robots\Models\Settings;
 
 class Generate
@@ -15,11 +15,11 @@ class Generate
 
     public static function getDomain ()
     {
-        if (Request::secure())
+        if (Request::isSecure())
         {
-            return 'https://'.$_SERVER['HTTP_HOST'];
+            return 'https://'.Request::getHttpHost();
         } else {
-            return 'http://'.$_SERVER['HTTP_HOST'];
+            return 'http://'.Request::getHttpHost();
         }
     }
 }
