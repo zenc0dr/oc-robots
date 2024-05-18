@@ -1,0 +1,8 @@
+{
+    "name": "zen/robots-plugin",
+    "type": "october-plugin",
+    "description": "Simple generating robots.txt file",
+    "require": {
+        "composer/installers": "~1.0"
+    }
+}
