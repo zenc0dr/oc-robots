@@ -8,3 +8,4 @@
 1.0.6: 'Security fixes, replacing the super global variable $_SERVER'
 1.0.7: 'Fix version in composer.json'
 1.0.8: 'Fix version in composer.json'
+1.0.9: 'Fix release version tag'
