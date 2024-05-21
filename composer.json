@@ -2,6 +2,7 @@
     "name": "zen/robots-plugin",
     "type": "october-plugin",
     "description": "Simple generating robots.txt file",
+    "version": "1.0.6",
     "require": {
         "composer/installers": "~1.0"
     }
