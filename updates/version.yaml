@@ -6,3 +6,4 @@
 1.0.4: 'Added Hungarian translate (thanks to Szabó Gergő)'
 1.0.5: 'Small fixes'
 1.0.6: 'Security fixes, replacing the super global variable $_SERVER'
+1.0.7: 'Fix version in composer.json'
